@@ -1,46 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slow Page Diary | Book Reviews</title>
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', serif;
-    background: radial-gradient(circle at top, #0c0f14, #050608 70%);
-    color: #e6e3df;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-  }
-  h1 { margin-top: 40px; font-size: 2.5rem; text-shadow: 0 0 12px rgba(255,255,255,0.2); }
-  .review { background: rgba(255,255,255,0.05); padding: 20px; margin: 20px; border-radius: 12px; width: 90%; max-width: 600px; box-shadow: 0 0 15px rgba(0,0,0,0.5); }
-  .review h2 { margin-bottom: 10px; }
-  .review p { line-height: 1.5; }
-  footer { margin-top: auto; padding: 20px; opacity: 0.5; font-size: 0.8rem; }
-</style>
+  <meta charset="UTF-8">
+  <title>Book Review Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #1c1c3c, #4b3b6b);
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #ffdae0;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #ffd6b6;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+      color: #f0f0f0;
+    }
+
+    .review {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      transition: 0.3s ease;
+    }
+
+    .review:hover {
+      background: rgba(255,255,255,0.15);
+      transform: scale(1.02);
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 40px;
+      text-decoration: none;
+      background: #ff97c3;
+      color: #1c1c3c;
+      padding: 12px 25px;
+      border-radius: 30px;
+      transition: 0.3s ease;
+    }
+
+    a.back:hover {
+      background: #ffbbe1;
+    }
+  </style>
 </head>
+
 <body>
-<h1>Book Reviews | Slow Page Diary</h1>
+  <div class="container">
+    <h1>Book Review Blog</h1>
+    <p>Soft thoughts, slow stories, and dreamy worlds 🌸</p>
 
-<div class="review">
-  <h2>A Little Life</h2>
-  <p>Deep, emotional, and unforgettable — a story that stays with you long after the last page.</p>
-</div>
+    <!-- Example Reviews -->
+    <div class="review">
+      <h2>A Little Life</h2>
+      <p>A haunting and beautiful story that explores friendship, trauma, and the resilience of the human spirit. Every page feels like a whisper to your soul.</p>
+    </div>
 
-<div class="review">
-  <h2>Harry Potter Series</h2>
-  <p>Comforting and magical, a world I return to whenever I need escape and warmth.</p>
-</div>
+    <div class="review">
+      <h2>Harry Potter Series</h2>
+      <p>A magical journey filled with adventure, love, and courage. Re-reading these books always feels like coming home to a world of wonder.</p>
+    </div>
 
-<div class="review">
-  <h2>The Housemaid</h2>
-  <p>Twisty and addictive — a dark thriller that kept me on the edge of my seat.</p>
-</div>
+    <div class="review">
+      <h2>A Housemaid</h2>
+      <p>A dark, thrilling story with secrets hidden in plain sight. I couldn’t put it down—every twist keeps you guessing.</p>
+    </div>
 
-<footer>© 2025 Slow Page Diary</footer>
+    <div class="review">
+      <h2>Verity</h2>
+      <p>A psychological thriller that is both intense and addictive. The suspense and dark twists will stay with you long after the last page.</p>
+    </div>
+
+    <div class="review">
+      <h2>The Silent Patient</h2>
+      <p>An unforgettable story of mystery and psychological tension. The final twist completely blew me away!</p>
+    </div>
+
+    <a class="back" href="index.html">⬅ Back to Linktree</a>
+  </div>
 </body>
 </html>
+
+
